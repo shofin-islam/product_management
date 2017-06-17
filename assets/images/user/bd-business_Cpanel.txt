@@ -1,0 +1,57 @@
++===================================+ | New Account Info | +===================================+ | 
+Domain: bd-business.com | Ip: 192.185.12.234 (n) | HasCgi: y | 
+
+UserName: bdbusiness | PassWord: NpvFCwdr=oSp 
+
+| CpanelMod: x3 | HomeRoot: /home | Quota: 100 Meg | NameServer1: ns1.bitbyte-host.com | NameServer2: ns2.bitbyte-host.com | NameServer3: | NameServer4: | Contact Email: amin.ict@gmail.com | Package: abser_100 MB | Feature List: default | Language: en +===================================+ ...Done
+404 - PAGE NOT FOUND
+404 means the file is not found. If you have already uploaded the file then the name may be misspelled or it is in a different folder.
+192.185.12.234
+I create the, db is the db info
+$hostname = 'localhost'; $username = 'bdbusine_busines'; $password = 'busines123!@#'; $dbname = 'bdbusine_bdbusiness';
+http://bd-business.com:2082/
+Chat Conversation End
+404 - PAGE NOT FOUND
+404 means th
+
+
+<?php
+
+
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Admin Panel</title>
+</head>
+
+<body>
+<table width="700" height="503" border="1" cellpadding="2" cellspacing="2" align="center">
+  <tr>
+    <td height="83" bgcolor="#0066FF"><h1 align="center">User Control Panel</h1></td>
+  </tr>
+  <tr>
+    <td height="30" align="center"> <a href="update.php">Update Your Personal Information</a> </td>
+  </tr>
+  
+  <tr>
+	<td height="30" align="center"> <a href="business_update.php">Update Your Business Information</a> </td>
+  </tr>
+  
+  <tr>
+    <td height="286" valign="top">
+    	<p align="center" style="color:orange"> <font size="10"><em>You Are Here, We Are Glad.</em></font><?php echo $user;?></p>
+        </td>
+  </tr>
+  
+  <tr>
+  	<td height="30" align="center"> <a href="indexr.php">Go Home</a> </td>
+  </tr>
+  
+  <tr>
+    <td height="45" align="center" bgcolor="#0066FF">Copyright &copy; bd-business.com</td>
+  </tr>
+</table><br/><br/>
+</body>
+</html>

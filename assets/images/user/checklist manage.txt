@@ -1,0 +1,17 @@
+<div class="form-group">
+                        <label class="control-label col-lg-3">Project Tester</label>
+                        <fieldset>
+                            <div class="item" style="padding-left: 2;">
+                                <input type="checkbox" id="a" name="tester[]" value="safiul@edisoon.com">
+                                <label for="a">Safiul Islam</label>
+                                <input type="checkbox" id="b" name="tester[]" value="najim@edisoon.com">
+                                <label for="b">Najmul Islam</label>
+                                <input type="checkbox" id="c" name="tester[]" value="raza@edisoon.com">
+                                <label for="c">Raja Hassan</label>
+                                <input type="checkbox" id="d" name="tester[]" value="ainul@edisoon.com">
+                                <label for="d">Ainul Huda</label>
+                            </div>
+
+                        </fieldset>
+                    </div>
+</div>
