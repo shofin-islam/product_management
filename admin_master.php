@@ -80,12 +80,12 @@ if (isset($_GET['status'])) {
         <div id="wrapper">
             <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<!--                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>
+                    </button>-->
                     <a class="navbar-brand" href="index.html">Product Management Admin</a>
                 </div>
                 <?php include './includes/top_menu.php'; ?>
@@ -180,6 +180,14 @@ if (isset($_GET['status'])) {
         <script>
             $(document).ready(function () {
                 $('#dataTables-example').DataTable({
+                    responsive: true
+                });
+            });
+
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('#after_sales_data').DataTable({
                     responsive: true
                 });
             });
